@@ -43,3 +43,31 @@ console.log(typeof myFunction);
 console.log(typeof myObj);
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(primitive) , Heap(Non Primitive)
+
+let myName = "Sunzay";
+
+let anotherName = myName;
+anotherName = "Sanjay";
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+
+}
+
+let userTwo = userOne;
+
+userTwo.email = "Sanjay@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
